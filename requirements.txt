@@ -1,0 +1,11 @@
+# ContractParser — Python dependencies
+# Pinned to the versions used during development (Python 3.13).
+# Install with:  pip install -r requirements.txt
+
+# PDF parsing, layout detection (box classification) and OCR (eng+fra)
+pymupdf4llm==1.27.2.3
+pymupdf-layout==1.27.2.3
+PyMuPDF==1.27.2.3
+
+# RAG-ready document chunk objects (Document model)
+langchain-core==1.4.8
